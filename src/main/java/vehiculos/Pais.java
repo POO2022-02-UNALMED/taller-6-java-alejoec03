@@ -28,13 +28,13 @@ public class Pais {
 		this.vendidos = vendidos;
 	}
 	
-	public static String paisMasVendedor() {
-		String vendedor= "";
+	public static Pais paisMasVendedor() {
+		Pais vendedor = null;
 		int vendidos=0;
 		for (Pais pais: lista) {
 			if(pais.vendidos>vendidos) {
 				vendidos = pais.vendidos;
-				vendedor = pais.getNombre();
+				vendedor = pais;
 			}
 		}
 		return vendedor;
