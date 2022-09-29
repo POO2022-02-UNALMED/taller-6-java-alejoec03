@@ -8,11 +8,11 @@ public class Fabricante {
 	public int vendidos=0;
 	public static ArrayList<Fabricante> listado = new ArrayList<Fabricante>();
 	
-	public Fabricante(String nombre, Pais pais, int vendidos) {
+	public Fabricante(String nombre, Pais pais) {
 		super();
 		this.nombre = nombre;
 		this.pais = pais;
-		this.vendidos = vendidos;
+		this.vendidos = 0;
 		listado.add(this);
 	}
 	

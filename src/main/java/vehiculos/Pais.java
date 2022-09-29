@@ -8,10 +8,10 @@ public class Pais {
 	public int vendidos=0;
 	public static ArrayList<Pais> lista = new ArrayList<Pais>();
 	
-	public Pais(String nombre, int vendidos) {
+	public Pais(String nombre) {
 		super();
 		this.nombre = nombre;
-		this.vendidos = vendidos;
+		this.vendidos = 0;
 		lista.add(this);
 	}
 	
