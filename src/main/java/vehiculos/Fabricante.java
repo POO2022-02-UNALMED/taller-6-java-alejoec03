@@ -36,8 +36,8 @@ public class Fabricante {
 		this.vendidos = vendidos;
 	}
 	
-	public static Fabricante fabricaMasVentas() {
-		Fabricante vendedor= null;
+	public static Fabricante fabricaMayorVentas() {
+		Fabricante vendedor = null;
 		int vendidos=0;
 		for (Fabricante fabricante: listado) {
 			if(fabricante.vendidos>vendidos) {
